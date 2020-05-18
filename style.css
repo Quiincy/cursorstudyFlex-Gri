@@ -71,6 +71,7 @@ nav {
 .botheader { 
     width: 100%;
     margin-top: 145px;
+    flex-wrap: wrap;
 }
 .botheader_titile {
     width: 645px;
@@ -125,7 +126,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    left: 750px;
+    left: 737px;
     top: 350px;
 }
 .about_wrapper {
