@@ -579,3 +579,14 @@ a:hover {
     color:  #F063B8; 
     text-decoration: underline;
 }
+.chat {
+   position: fixed;
+   bottom: 20%;
+   right: 10%;
+   cursor: pointer;
+}
+.chat:hover {
+    background-color: rgb(243, 186, 217) ;
+    border-radius: 100px;
+    
+}
