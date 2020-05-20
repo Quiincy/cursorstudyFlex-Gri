@@ -134,9 +134,11 @@ nav {
     font-weight: 800;
     font-size: 18px;
     line-height: 160%;
+    cursor: pointer;
 
     color: #FFFFFF;
 }
+
 .learn_more:hover {
     background: white;
     border: 1px solid #9C69E2;
@@ -259,9 +261,15 @@ nav {
 .ftext{
     width: 220px;
     height: 160px;
+    color: #4B5D68;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
 }
 .fbtn{
-    display: block;
+    display: flex;
     margin-top: 20px;
     font-weight: 900;
     font-size: 16px;
@@ -272,12 +280,16 @@ nav {
     padding-left: 5px;
     padding-right: 5px;
     align-items: center;
+    cursor: pointer;
 }
 .fbtn:hover {
    background-color: #F063B8;
    color: ivory;
    border-radius: 50px;
 
+}
+.fimg {
+    margin-left: 20px;
 }
 
 .feature_img{
@@ -457,6 +469,7 @@ hr {
     letter-spacing: 0.005em;
 
     color: #212353; 
+
 }
 .try_request_demo:hover {
     background: #9C69E2;
@@ -526,9 +539,6 @@ footer {
 
     color: #212353;
 }
-.footer_item_title{
-    margin-top: ;
-}
 .link_img{
     background-color: #F063B8;
     border-radius: 50px;
@@ -557,7 +567,7 @@ footer {
     color: #212353;
     text-decoration: none;
 }
-a { font-family: Avenir;
+a{ font-family: Avenir;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
